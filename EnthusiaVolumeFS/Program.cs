@@ -30,4 +30,5 @@ namespace EnthusiaVolumeFS
             volume.Open(args[0]);
             volume.UnpackAll(args[1]);
         }
+    }
 }
