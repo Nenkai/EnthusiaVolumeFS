@@ -30,8 +30,11 @@ namespace EnthusiaVolumeFS.Data
                 maker.NameAlphabet = spl[3];
                 Makers[maker.MakerCode] = maker;
             }
+        }
 
-            lines = File.ReadAllLines("Data/CarToMaker.txt");
+        public static void InitCarToMakerVarCount(GameType type)
+        {
+            string[] lines = File.ReadAllLines($"Data/{type}/CarToMakerVarCount.txt");
             foreach (var line in lines)
             {
                 if (line.StartsWith("//") || string.IsNullOrEmpty(line))

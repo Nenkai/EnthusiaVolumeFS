@@ -13,52 +13,60 @@ namespace EnthusiaVolumeFS
 {
     public class VolumeManager
     {
-        public const int FileCount = 4079;
         public const int SectorSize = 0x800;
 
         private int[] entryOffsets;
         private BinaryStream _dataStream;
 
-        public List<BaseFileGroup> BaseFileGroups = new List<BaseFileGroup>()
+        public int _fileCount { get; set; }
+        private GameType Type { get; set; }
+
+        public Dictionary<string, BaseFileGroup> NameToGroup = new Dictionary<string, BaseFileGroup>()
         {
-            new WSMovieFileGrp(),
-            new WSBgmFileGrp(),
-            new IRXFileGroup(),
-            new WSSdSysSeGroup(),
-            new WSSdOptCarSeGroup(),
-            new mynFgrpEtc(),
-            new TeEtcFileGroup(),
-            new okFileGroup(),
-            new WSSdAmbSeGroup(),
-            new WSSdCarSeGroup(),
-            new WSSdSqealSeGroup(),
-            new TeFgrpMapPack(),
-            new TeFgrpCarPack(),
-            new TeFgrpSelCarPack(),
+            { WSMovieFileGrp.Name, new WSMovieFileGrp() },
+            { WSBgmFileGrp.Name, new WSBgmFileGrp() },
+            { IRXFileGroup.Name, new IRXFileGroup() },
+            { WSSdSysSeGroup.Name, new WSSdSysSeGroup() },
+            { WSSdOptCarSeGroup.Name, new WSSdOptCarSeGroup() },
+            { mynFgrpEtc.Name, new mynFgrpEtc() },
+            { TeEtcFileGroup.Name, new TeEtcFileGroup() },
+            { okFileGroup.Name, new okFileGroup() },
+            { WSSdAmbSeGroup.Name, new WSSdAmbSeGroup() },
+            { WSSdCarSeGroup.Name, new WSSdCarSeGroup() },
+            { WSSdSqealSeGroup.Name, new WSSdSqealSeGroup() },
+            { TeFgrpMapPack.Name, new TeFgrpMapPack() },
+            { TeFgrpCarPack.Name, new TeFgrpCarPack() },
+            { TeFgrpSelCarPack.Name, new TeFgrpSelCarPack() },
 
             // pkdt (data type?) linked to those "Ryu" stuff
-            new TeSelPkdtFileGroup(), // Path key 0x2A?
-            new TeBgImagePkdtFileGroup(), // Path key 0x2B?
-            new TeCarIconPkdtFileGroup(), // Path Key 0x2C?
-            new TeCarLogoPkdtFileGroup(), // Path Key 0x2D?
-            new TeMakerLogoPkdtFileGroup(), // Path Key 0x2E?
-            new TeMakerIconPkdtFileGroup(), // Path Key 0x2F?
-            new TeCrsSnapImagePkdtFileGroup(), // Path Key 0x30?
-            new TeCrsSnapIconPkdtFileGroup(), // Path Key 0x31?
-            new TeMiniMapSelPkdtFileGroup(), // Path Key 0x32?
-            new TeMiniMapRacePkdtFileGroup(), // Path Key 0x33?
-            new TeCrsStatBigPkdtFileGroup(), // Path Key 0x34?
-            new TeCrsStatSmallPkdtFileGroup(), // Path Key 0x35?
-
-            new FileGroup_tutorial(),
-            new TeDataMngFileGroup(),
-            new TeFileMngFileGroup(),
-            new Ts_FileGroup_replay(),
-            new Ts_recordFileGroup(),
+            { TeSelPkdtFileGroup.Name, new TeSelPkdtFileGroup()}, // Path key 0x2A?
+            { TeBgImagePkdtFileGroup.Name, new TeBgImagePkdtFileGroup()}, // Path key 0x2B?
+            { TeCarIconPkdtFileGroup.Name, new TeCarIconPkdtFileGroup()}, // Path Key 0x2C?
+            { TeCarLogoPkdtFileGroup.Name, new TeCarLogoPkdtFileGroup()}, // Path Key 0x2D?
+            { TeMakerLogoPkdtFileGroup.Name, new TeMakerLogoPkdtFileGroup()}, // Path Key 0x2E?
+            { TeMakerIconPkdtFileGroup.Name, new TeMakerIconPkdtFileGroup()}, // Path Key 0x2F?
+            { TeCrsSnapImagePkdtFileGroup.Name, new TeCrsSnapImagePkdtFileGroup()}, // Path Key 0x30?
+            { TeCrsSnapIconPkdtFileGroup.Name, new TeCrsSnapIconPkdtFileGroup()}, // Path Key 0x31?
+            { TeMiniMapSelPkdtFileGroup.Name, new TeMiniMapSelPkdtFileGroup()}, // Path Key 0x32?
+            { TeMiniMapRacePkdtFileGroup.Name, new TeMiniMapRacePkdtFileGroup()}, // Path Key 0x33?
+            { TeCrsStatBigPkdtFileGroup.Name, new TeCrsStatBigPkdtFileGroup()}, // Path Key 0x34?
+            { TeCrsStatSmallPkdtFileGroup.Name, new TeCrsStatSmallPkdtFileGroup()}, // Path Key 0x35?
+           
+            { FileGroup_tutorial.Name, new FileGroup_tutorial() },
+            { TeDataMngFileGroup.Name, new TeDataMngFileGroup() },
+            { TeFileMngFileGroup.Name, new TeFileMngFileGroup() },
+            { Ts_FileGroup_replay.Name, new Ts_FileGroup_replay() },
+            { Ts_recordFileGroup.Name, new Ts_recordFileGroup() },
         };
 
-        public void Open(string file)
+        public List<BaseFileGroup> BaseFileGroups = new List<BaseFileGroup>();
+
+        public void Open(GameType type, string file)
         {
+            Type = type;
+
+            InitGroups(type);
+            
             if (string.IsNullOrEmpty(file))
                 throw new ArgumentException("Bad file name.");
 
@@ -68,7 +76,8 @@ namespace EnthusiaVolumeFS
             using var fs = new FileStream(file, FileMode.Open);
             using var bs = new BinaryStream(fs, ByteConverter.Little);
 
-            entryOffsets = bs.ReadInt32s(FileCount);
+            _fileCount = (int)fs.Length / sizeof(int);
+            entryOffsets = bs.ReadInt32s(_fileCount);
 
             string dir = Path.GetDirectoryName(file);
             string dataFile = Path.Combine(dir, "d001.bin");
@@ -80,9 +89,21 @@ namespace EnthusiaVolumeFS
             _dataStream = new BinaryStream(fs2, ByteConverter.Little);
         }
 
+        public void InitGroups(GameType type)
+        {
+            var lines = File.ReadAllLines($"Data/{type}/GroupOrder.txt");
+            foreach (var line in lines)
+            {
+                if (string.IsNullOrEmpty(line) || line.StartsWith("//"))
+                    continue;
+
+                BaseFileGroups.Add(NameToGroup[line]);
+            }
+        }
+
         public void UnpackAll(string outputDir)
         {
-            for (var i = 0; i < FileCount; i++)
+            for (var i = 0; i < _fileCount; i++)
                 UnpackFile(i, outputDir);
 
             Console.WriteLine("Done.");
@@ -94,7 +115,7 @@ namespace EnthusiaVolumeFS
             int fileGroupIndex = fileIndex;
             foreach (var group in BaseFileGroups)
             {
-                int sizeInGroup = group.GetSize();
+                int sizeInGroup = group.GetSize(Type);
                 if (fileGroupIndex < sizeInGroup)
                 {
                     targetGroup = group;
@@ -107,8 +128,8 @@ namespace EnthusiaVolumeFS
             if (targetGroup is null)
                 return;
 
-            string fileName = targetGroup.GetFileName(fileGroupIndex);
-            int pathKey = targetGroup.GetPathKey(fileGroupIndex);
+            string fileName = targetGroup.GetFileName(Type, fileGroupIndex);
+            int pathKey = targetGroup.GetPathKey(Type, fileGroupIndex);
             var pathKeyEntry = PathKeyEntries.List[pathKey];
             string outputFilePath = Path.Combine(pathKeyEntry.name, fileName);
 

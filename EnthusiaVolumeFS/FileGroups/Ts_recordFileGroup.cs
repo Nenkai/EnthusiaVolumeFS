@@ -8,6 +8,8 @@ namespace EnthusiaVolumeFS.FileGroups
 {
     public class Ts_recordFileGroup : BaseFileGroup
     {
+        public static string Name => nameof(Ts_recordFileGroup);
+
         public override bool GetArcEnable(int fileIndex)
         {
             return true;
@@ -18,7 +20,7 @@ namespace EnthusiaVolumeFS.FileGroups
             return 3;
         }
 
-        public override string GetFileName(int fileIndex)
+        public override string GetFileName(GameType type, int fileIndex)
         {
             return fileIndex switch
             {
@@ -30,12 +32,12 @@ namespace EnthusiaVolumeFS.FileGroups
             };
         }
 
-        public override int GetPathKey(int fileIndex)
+        public override int GetPathKey(GameType type, int fileIndex)
         {
             return 0x3B;
         }
 
-        public override int GetSize()
+        public override int GetSize(GameType type)
         {
             return 5;
         }

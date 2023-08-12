@@ -8,6 +8,8 @@ namespace EnthusiaVolumeFS.FileGroups
 {
     public class FileGroup_tutorial : BaseFileGroup
     {
+        public static string Name => nameof(FileGroup_tutorial);
+
         public override bool GetArcEnable(int fileIndex)
         {
             return true;
@@ -19,17 +21,17 @@ namespace EnthusiaVolumeFS.FileGroups
             return 3;
         }
 
-        public override string GetFileName(int fileIndex)
+        public override string GetFileName(GameType type, int fileIndex)
         {
             return $"tutorial{fileIndex:D3}.bin";
         }
 
-        public override int GetPathKey(int fileIndex)
+        public override int GetPathKey(GameType type, int fileIndex)
         {
             return 0x3C;
         }
 
-        public override int GetSize()
+        public override int GetSize(GameType type)
         {
             return 0x64;
         }

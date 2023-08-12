@@ -8,6 +8,8 @@ namespace EnthusiaVolumeFS.FileGroups
 {
     public class WSMovieFileGrp : BaseFileGroup
     {
+        public static string Name => nameof(WSMovieFileGrp);
+
         public override bool GetArcEnable(int fileIndex)
         {
             return true;
@@ -18,7 +20,7 @@ namespace EnthusiaVolumeFS.FileGroups
             return 3;
         }
 
-        public override string GetFileName(int fileIndex)
+        public override string GetFileName(GameType type, int fileIndex)
         {
             if (fileIndex < 0x0A)
                 return $"movie{fileIndex:D2}.enc";
@@ -26,12 +28,12 @@ namespace EnthusiaVolumeFS.FileGroups
                 return $"ipu{fileIndex:D2}.enc";
         }
 
-        public override int GetPathKey(int fileIndex)
+        public override int GetPathKey(GameType type, int fileIndex)
         {
             return 0x28;
         }
 
-        public override int GetSize()
+        public override int GetSize(GameType type)
         {
             return 0x1E;
         }

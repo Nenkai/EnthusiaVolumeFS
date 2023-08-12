@@ -10,6 +10,8 @@ namespace EnthusiaVolumeFS.FileGroups
 {
     public class WSSdCarSeGroup : BaseFileGroup
     {
+        public static string Name => nameof(WSSdCarSeGroup);
+
         public override bool GetArcEnable(int fileIndex)
         {
             return true;
@@ -20,18 +22,18 @@ namespace EnthusiaVolumeFS.FileGroups
             return 3;
         }
 
-        public override string GetFileName(int fileIndex)
+        public override string GetFileName(GameType type, int fileIndex)
         {
-            int unk = CarList.IndexToCourseCode(fileIndex / 4);
-            return $"{unk:X8}_{fileIndex & 3:D1}.edp";
+            int carCode = CarList.IndexToCarCode(fileIndex / 4);
+            return $"{carCode:D8}_{fileIndex & 3:D1}.edp";
         }
 
-        public override int GetPathKey(int fileIndex)
+        public override int GetPathKey(GameType type, int fileIndex)
         {
             return 0x27;
         }
 
-        public override int GetSize()
+        public override int GetSize(GameType type)
         {
             return 0x370;
         }

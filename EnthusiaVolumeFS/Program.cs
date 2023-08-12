@@ -1,5 +1,9 @@
 ﻿
+using EnthusiaVolumeFS.Data;
+
 using Syroot.BinaryData;
+
+using System;
 
 namespace EnthusiaVolumeFS
 {
@@ -8,9 +12,10 @@ namespace EnthusiaVolumeFS
         static void Main(string[] args)
         {
             Console.WriteLine("-- EnthusiaVolumeFS by Nenkai --");
-            if (args.Length != 2)
+            if (args.Length != 3)
             {
-                Console.WriteLine("Usage: <path_to_d000.bin or 0xFC87 pack file> <output_directory>");
+                Console.WriteLine("Usage: <path_to_d000.bin or 0xFC87 pack file> <output_directory> <game_type>");
+                Console.WriteLine($"Valid game types: {string.Join(", ", ((GameType[])Enum.GetValues(typeof(GameType))).Select(e => e.ToString()))}");
                 return;
             }
 
@@ -26,8 +31,16 @@ namespace EnthusiaVolumeFS
                 return;
             }
 
+            if (!Enum.TryParse(args[2], out GameType type))
+            {
+                Console.WriteLine($"Error: Invalid game type");
+                return;
+            }
+
+            MakerList.InitCarToMakerVarCount(type);
+
             var volume = new VolumeManager();
-            volume.Open(args[0]);
+            volume.Open(type, args[0]);
             volume.UnpackAll(args[1]);
         }
     }

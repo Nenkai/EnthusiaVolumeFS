@@ -9,6 +9,8 @@ namespace EnthusiaVolumeFS.FileGroups
 {
     public class TeFgrpMapPack : BaseFileGroup
     {
+        public static string Name => nameof(TeFgrpMapPack);
+
         public override bool GetArcEnable(int fileIndex)
         {
             return true;
@@ -19,18 +21,18 @@ namespace EnthusiaVolumeFS.FileGroups
             return 3;
         }
 
-        public override string GetFileName(int fileIndex)
+        public override string GetFileName(GameType type, int fileIndex)
         {
             int courseCode = CourseList.Courses[fileIndex].CourseCode;
             return $"{courseCode:D3}_00.map";
         }
 
-        public override int GetPathKey(int fileIndex)
+        public override int GetPathKey(GameType type, int fileIndex)
         {
             return 5;
         }
 
-        public override int GetSize()
+        public override int GetSize(GameType type)
         {
             return 0xC8;
         }

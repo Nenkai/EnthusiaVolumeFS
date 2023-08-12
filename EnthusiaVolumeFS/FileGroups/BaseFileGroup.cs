@@ -8,9 +8,9 @@ namespace EnthusiaVolumeFS.FileGroups
 {
     public abstract class BaseFileGroup
     {
-        public abstract int GetSize();
-        public abstract int GetPathKey(int fileIndex);
-        public abstract string GetFileName(int fileIndex);
+        public abstract int GetSize(GameType type);
+        public abstract int GetPathKey(GameType type, int fileIndex);
+        public abstract string GetFileName(GameType type, int fileIndex);
         public abstract int GetDevice(int fileIndex);
         public abstract bool GetArcEnable(int fileIndex);
 

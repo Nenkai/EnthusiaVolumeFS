@@ -28,7 +28,7 @@ namespace EnthusiaVolumeFS.Data
 
         public const int CarCount = 211;
 
-        public static int IndexToCourseCode(int carIndex)
+        public static int IndexToCarCode(int carIndex)
         {
             if (carIndex < CarCount)
                 return Cars[carIndex].CarCode;

@@ -8,6 +8,8 @@ namespace EnthusiaVolumeFS.FileGroups
 {
     public class IRXFileGroup : BaseFileGroup
     {
+        public static string Name => nameof(IRXFileGroup);
+
         public override bool GetArcEnable(int fileIndex)
         {
             return true;
@@ -18,19 +20,22 @@ namespace EnthusiaVolumeFS.FileGroups
             return 3;
         }
 
-        public override string GetFileName(int fileIndex)
+        public override string GetFileName(GameType type, int fileIndex)
         {
             return "stub";
         }
 
-        public override int GetPathKey(int fileIndex)
+        public override int GetPathKey(GameType type, int fileIndex)
         {
             return 0x28;
         }
 
-        public override int GetSize()
+        public override int GetSize(GameType type)
         {
-            return 10;
+            if (type == GameType.SLUS_20967 || type == GameType.SLPM_68519)
+                return 8;
+            else
+                return 10;
         }
     }
 }

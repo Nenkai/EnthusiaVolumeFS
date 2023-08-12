@@ -8,6 +8,8 @@ namespace EnthusiaVolumeFS.FileGroups
 {
     public class mynFgrpEtc : BaseFileGroup
     {
+        public static string Name => nameof(mynFgrpEtc);
+
         public override bool GetArcEnable(int fileIndex)
         {
             return true;
@@ -18,17 +20,17 @@ namespace EnthusiaVolumeFS.FileGroups
             return 3;
         }
 
-        public override string GetFileName(int fileIndex)
+        public override string GetFileName(GameType type, int fileIndex)
         {
             return $"el_race_data.rcd";
         }
 
-        public override int GetPathKey(int fileIndex)
+        public override int GetPathKey(GameType type, int fileIndex)
         {
             return 0x40;
         }
 
-        public override int GetSize()
+        public override int GetSize(GameType type)
         {
             return 1;
         }
