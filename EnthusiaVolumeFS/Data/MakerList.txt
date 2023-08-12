@@ -1,0 +1,46 @@
+﻿0|2|ＡＳＬ|ASL
+1|1|ＢＭＷ|BMW
+2|0|ＤＭＣ|DMC
+3|4|ＭＧ|MG
+4|4|ＴＶＲ|TVR
+5|1|アウディ|Audi
+7|4|アストン マーティン|ASTON MARTIN
+9|5|アルファ ロメオ|ALFA ROMEO
+11|4|オースチン・ヒーレー|Austin-Healey
+12|1|オペル|OPEL
+13|0|キャデラック|CADILLAC
+14|0|クライスラー|CHRYSLER
+15|4|ケイターハム|CATERHAM
+16|6|サーブ|SAAB
+18|0|シェルビー|SHELBY
+19|3|シトロエン|CITRO@QN
+20|0|シボレー|CHEVROLET
+21|4|ジャガー|JAGUAR
+22|2|スズキ|SUZUKI
+23|2|スバル|SUBARU
+24|1|スマート|smart
+25|2|ダイハツ|DAIHATSU
+26|0|ダッジ|Dodge
+27|5|デ・トマソ|DE TOMASO
+28|2|トミーカイラ|Tommy kaira
+29|2|トヨタ|TOYOTA
+31|2|ニッサン|NISSAN
+32|7|ヒュンダイ|HYUNDAI
+33|5|フィアット|FIAT
+35|0|フォード|Ford
+36|1|フォルクスワーゲン|VOLKSWAGEN
+38|3|プジョー|PEUGEOT
+40|6|ボルボ|VOLVO
+41|2|ホンダ|HONDA
+42|0|ポンティアック|PONTIAC
+45|2|マツダ|MAZDA
+46|2|ミツビシ|MITSUBISHI
+47|1|ミニ|MINI
+48|1|メルセデス・ベンツ|Mercedes-Benz
+49|4|モーリス|MORRIS
+50|5|ランチア|LANCIA
+51|4|ランドローバー|LAND ROVER
+52|1|ルーフ|RUF
+53|3|ルノー|RENAULT
+54|4|ロータス|LOTUS
+56|1|ダウアー|DAUER

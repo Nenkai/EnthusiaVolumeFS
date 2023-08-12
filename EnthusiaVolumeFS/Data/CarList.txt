@@ -1,0 +1,211 @@
+﻿1|8|ユーノスロードスター S-SPECIAL typeⅡ (NA8C)|EUNOS ROADSTER S-SPECIAL typeⅡ (NA8C)
+2|8|マーチ|MARCH
+3|9|ロードスター RS-Ⅱ (NB8C)|Roadster RS-Ⅱ (NB8C)
+5|9|ＮＳＸ タイプＲ (NA2)|NSX TypeR (NA2)
+6|8|ｂＢ|bB
+7|8|２０００ＧＴ|2000GT
+8|8|スープラ RZ (JZA80)|Supra RZ (JZA80)
+10|8|スポーツ８００|SPORTS 800
+11|8|ＧＴ-ｏｎｅ (Race Car)|GT-one (Race Car)
+13|8|フェアレディ 240ZG (S30)|Fairlady 240ZG (S30)
+14|8|ブルーバード 1600 SSS COUPE (510)|BlueBird 1600 SSS COUPE (510)
+15|8|シビック RS|CIVIC RS
+16|8|Ｓ８００|S800
+17|9|７８７Ｂ (Race Car)|787B (Race Car)
+18|8|コスモ スポーツ|COSMO SPORT
+19|8|ギャラン ＧＴＯ MR|Galant GTO MR
+20|8|ｅＫワゴン|eK@.WAGON
+21|8|スバル ヤング SS|SUBARU YOUNG SS
+25|8|コルベット スティング レイ Sport Coupe (C2)|CORVETTE STING RAY Sport Coupe (C2)
+26|8|1966 マスタング GT|1966 MUSTANG GT
+27|8|スプライト MKⅠ|SPRITE MKⅠ
+28|8|ストラトス|STRATOS
+29|8|５ Turbo 2|5 Turbo 2
+31|8|ソアラ 2.5GT-TWINTURBO|SOARER 2.5GT-TWINTURBO
+32|8|アリスト V300 VERTEX EDITION|ARISTO V300 VERTEX EDITION
+35|8|プリウス|PRIUS
+36|8|セルシオ|CELSIOR
+37|8|アルテッツァ RS200|ALTEZZA RS200
+38|8|エスティマ ハイブリッド|ESTIMA HYBRID
+39|8|カローラ 1.8 Luxel|COROLLA 1.8 Luxel
+40|8|ｉｓｔ|ist
+42|8|スカイライン 350GT-8 (V35)|SKYLINE 350GT-8 (V35)
+45|8|ステージア|STAGEA
+46|8|シーマ 450XV|CIMA 450XV
+47|8|インサイト|insight
+48|9|インテグラ TYPE R (DC5)|INTEGRA TYPE R (DC5)
+49|8|シビック タイプＲ (EP3)|CIVIC TYPE R (EP3)
+50|8|インテグラ タイプＲ (DC2)|INTEGRA TYPE R (DC2)
+51|8|Ｓ２０００|S2000
+52|8|オデッセイ アブソルート|ODYSSEY Absolute
+54|8|ＲＸ-７ SPIRIT R (FD3S)|RX-7 SPIRIT R (FD3S)
+56|8|レガシィ ツーリングワゴン GT-B E-tuneⅡ (BH5)|LEGACY TOURING WAGON GT-B E-tuneⅡ (BH5)
+57|8|レガシィ Ｂ４ RSK (BE5)|LEGACY B4 RSK (BE5)
+58|8|フォレスター|FORESTER
+60|8|インプレッサ ＷＲＸ STi Limited (GDB typeⅠ)|IMPREZA WRX STi Limited (GDB typeⅠ)
+61|8|ストーリア Ｘ４|storia X4
+63|9|Ｇ５００Ｌ|G500L
+64|8|Ｃ３２ ＡＭＧ|C32 AMG
+66|9|Ｓ６００Ｌ|S600L
+67|8|ＣＬ５５ ＡＭＧ|CL55 AMG
+69|8|ＳＬ ５００|SL 500
+79|8|ポロ|Polo
+82|8|オールロード クワトロ|allroad quattro
+83|8|ＴＴ Roadster 1.8T quattro|TT Roadster 1.8T quattro
+84|8|Ａ４ 3.0 quattro Sport|A4 3.0 quattro Sport
+85|8|ヴィータ GSi|VITA GSi
+86|8|ミニ COOPER S|MINI COOPER S
+87|8|カマロ Z28|CAMARO Z28
+88|8|Ｘタイプ 2.5 V6 SPORT|X-TYPE 2.5 V6 SPORT
+89|8|Ｓタイプ Ｒ|S-TYPE R
+90|8|ＸＪＲ 4.0 Supercharged V8|XJR 4.0 Supercharged V8
+91|8|ＳＺ|SZ
+92|8|アルファ スパイダー Quadrifoglio Verde|Alfa Spider Quadrifoglio Verde
+95|8|アルファ １５６ GTA|Alfa 156 GTA
+97|8|アルファ ＧＴＶ 3.2 V6 24V|Alfa GTV 3.2 V6 24V
+98|8|１０６ S16|106 S16
+100|8|２０６ＣＣ S16|206CC S16
+103|8|スマート フォーツー カブリオ|smart fortwo cabrio
+105|8|プリメーラ 20V|PRIMERA 20V
+106|8|アコード ユーロＲ (CL1)|Accord Euro-R (CL1)
+108|8|アテンザ SEDAN 23E|Atenza SEDAN 23E
+109|8|モビリオ|MOBILIO
+111|8|ＸＫＲ １００|XKR 100
+112|8|レンジローバー|RANGE ROVER
+113|8|アテンザ Sport 23Z|Atenza Sport 23Z
+114|8|Ｖ７０ Ｒ|V70 R
+117|8|パジェロ ショート|PAJERO SHORT
+119|8|ＭＲ-Ｓ V EDITION|MR-S V EDITION
+120|8|ファンカーゴ|FunCargo
+121|8|９-５ Aero 2.3TS|9-5 Aero 2.3TS
+122|8|セビル STS|SEVILLE STS
+123|8|ヴォルツ|VOLTZ
+124|8|アストロ|ASTRO
+126|8|ＰＴクルーザー|PT Cruiser
+127|8|バイパー GTS|Viper GTS
+129|8|ビート|BEAT
+130|8|コペン|Copen
+132|8|ルーテシア RENAULT sport2.0 RENAULT F1Team LIMITED Edition|Clio RENAULT sport2.0
+133|8|コルベット Z51 (C5)|CORVETTE Z51 (C5)
+137|8|レガシィ ランカスター６|LEGACY Lancaster6
+144|8|４０６ Coupe|406 Coupe
+146|8|Ｓ６０ Ｒ|S60 R
+148|8|ヒュンダイ・クーペ|HYUNDAI COUPE
+151|8|タモーラ|Tamora
+152|8|モコ|MOCO
+153|8|セリカ SS-Ⅱ (ZZT231)|CELICA SS-Ⅱ (ZZT231)
+154|8|サーブラウ 4.5|Cerbera 4.5
+155|8|ＺＺ S coupe|ZZ S coupe
+156|8|ランドクルーザー１００|LAND CRUISER 100
+157|8|エルグランド|ELGRAND
+158|8|NISMO Ｒ３４ スカイライン ＧＴ-Ｒ S-tune|NISMO R34 SKYLINE GT-R S-tune
+159|8|NISMO Ｓ１５ シルビア R-tune|NISMO S15 SILVIA R-tune
+160|8|ウイングロード|WINGROAD
+161|8|サクソ VTS|Saxo VTS
+163|8|フェアレディＺ Version S (Z33)|FAIRLADY Z Version S (Z33)
+166|8|２００２ turbo|2002 turbo
+167|8|アルピーヌ Ａ１１０ 1600SC|ALPINE A110 1600SC
+168|8|２ＣＶ６ Charleston|2CV6 Charleston
+170|9|フォーカス Rally Car|FOCUS Rally Car
+172|8|ＭＲ２ GT-S (SW20)|MR2 GT-S (SW20)
+173|8|エッソウルトラフロー スープラ (Race Car)|ESSO Ultraflo Supra (Race Car)
+174|8|スプリンター トレノ 3door GT APEX (AE86)|SPRINTER TRUENO 3door GT APEX (AE86)
+175|8|セリカ GT@.FOUR WRC (ST205)|CELICA GT@.FOUR WRC (ST205)
+176|8|１８０ＳＸ TYPE X (RPS13)|180SX TYPE X (RPS13)
+177|8|シルビア K's (S13)|SILVIA K's (S13)
+179|8|スカイライン ＧＴ-Ｒ V@.specⅡ (R32)|SKYLINE GT-R V@.specⅡ (R32)
+180|8|スカイライン ＧＴ-Ｒ V@.specⅡ N@tr (R34)|SKYLINE GT-R V@.specⅡ N@tr (R34)
+181|8|ザナヴィ ニスモ ＧＴ-Ｒ (Race Car)|XANAVI NISMO GT-R (Race Car)
+183|8|インプレッサ (Rally Car)|IMPREZA (Rally Car)
+184|8|ＮＳＸ typeS Zero|NSX typeS Zero
+186|8|Ｇ'ＺＯＸ－ＮＳＸ (Race Car)|G'ZOX-NSX (Race Car)
+187|8|シビック タイプＲ (EK9)|CIVIC TYPE R (EK9)
+188|8|サバンナ ＲＸ-７ INFINI (FC3S)|SAVANNA RX-7 INFINI (FC3S)
+189|8|ランサー エボリューション Ⅶ (Rally Car)|LANCER EVOLUTION Ⅶ (Rally Car)
+190|8|２０６ Rally Car 2000|206 Rally Car 2000
+193|8|コブラ 427 S/C|COBRA 427 S/C
+194|9|スーパーセブン SUPERLIGHT R500|SUPER 7 SUPERLIGHT R500
+197|8|ヨーロッパ SPECIAL|EUROPA SPECIAL
+198|8|ミニ COOPER 1275S MkⅠ|MINI COOPER 1275S MkⅠ
+199|9|５００ F|500 F
+200|8|ラリー 037|RALLY 037
+201|8|スカイライン 2000ＧＴ-Ｒ (KPGC10)|SKYLINE 2000GT-R (KPGC10)
+203|9|インプレッサ ＷＲＸ STi (GDB typeⅡ)|IMPREZA WRX STi (GDB typeⅡ)
+206|8|ＤＢ５ Vantage|DB5 Vantage
+208|8|デロリアン|DE LOREAN
+209|8|エスプリ S2|esprit S2
+211|8|エリーゼ 111S|ELISE 111S
+212|8|パンテーラ GTS|PANTERA GTS
+215|8|Ｚ４ 3.0i|Z4 3.0i
+216|8|ビートル Type1|Beetle Type1
+218|8|カプチーノ|Cappuccino
+222|8|スカイライン ＧＴ-Ｒ V@.spec (R33)|SKYLINE GT-R V@.spec (R33)
+225|8|ＲＸ-８ Type S|RX-8 Type S
+229|8|ＤＳ ２３ Pallas|DS 23 Pallas
+230|8|デルタ integrale EVOLUZIONEⅡ|DELTA integrale EVOLUZIONEⅡ
+231|8|エラン S.3|ELAN S.3
+232|8|ファイヤーバード トランザム SD-455|Firebird TRANS AM SD-455
+233|8|キューブ|cube
+236|8|アコード ユーロＲ (CL7)|ACCORD Euro-R (CL7)
+237|8|ランサー GSR Evolution Ⅲ|LANCER GSR Evolution Ⅲ
+239|8|ランサー エボリューション Ⅷ GSR|LANCER Evolution Ⅷ GSR
+240|8|スカイライン 2000ＧＴ-Ｒ (KPGC110)|SKYLINE 2000GT-R (KPGC110)
+241|8|シティ TURBOⅡ|CITY TURBOⅡ
+242|8|コルベット スティングレイ Coupe (C3)|CORVETTE Stingray Coupe (C3)
+244|8|フィット 1.5T|Fit 1.5T
+245|8|アルファ １４７ GTA|Alfa 147 GTA
+254|8|ＭＧＢ|MGB
+255|8|Ｅタイプ 4@.2|E TYPE 4@.2
+256|8|ＴＴ Coupe 3.2 quattro Sline|TT Coupe 3.2 quattro Sline
+258|8|３００ ＳＬ|300 SL
+261|8|インプレッサ ２２Ｂ STi Version|Impreza 22B STi Version
+263|8|サバンナ ＡＰ GT|SAVANNA AP GT
+264|8|サバンナ ＲＸ-７ GT-X (SA22C)|SAVANNA RX-7 GT-X (SA22C)
+265|8|デミオ|Demio
+266|8|ガライヤ|Garaiya
+270|8|Ｒ３９０ GT1 (Race Car)|R390 GT1 (Race Car)
+277|8|ゴルフ Ｒ３２ (Ⅳ)|Golf R32 (Ⅳ)
+279|8|ヴィッツ RS TURBO|Vitz RS TURBO
+280|8|スカイライン クーペ 350GT PREMIUM (V35)|SKYLINE COUPE 350GT PREMIUM (V35)
+281|8|アバルト １３１ rally|ABARTH 131 rally
+283|8|ニュービートル|New Beetle
+285|8|シルビア spec.R (S15)|Silvia spec.R (S15)
+286|8|ランサー エボリューション Ⅶ GSR|LANCER EVOLUTION Ⅶ GSR
+290|8|ＥＢ１１０|EB110
+291|8|Ｒ８ TEAM GOH 2003 (Race Car)|R8 TEAM GOH 2003 (Race Car)
+292|8|Ａ８ 4.2 quattro|A8 4.2 quattro
+293|8|ＲＳ６|RS6
+295|8|V12 ヴァンキッシュ|V12 VANQUISH
+296|8|アストラ V8 Coupe 24h (Race Car)|Astra V8 Coupe 24h (Race Car)
+297|8|Ｃ３|C3
+298|8|クサラ|Xsara
+299|8|アルファード Ｖ|ALPHARD V
+300|8|サンダーバード|Thunderbird
+301|8|マスタング mach 1|MUSTANG mach 1
+302|8|トゥアレグ|Touareg
+304|8|ＣＬＫ-ＤＴＭ (Race Car)|CLK-DTM (Race Car)
+305|8|コルト|COLT
+306|8|ランサー エボリューション Ⅵ T.M. EDITION|LANCER Evolution Ⅵ T.M. EDITION
+307|8|ＣＴＲ|CTR
+308|8|ＲＧＴ|RGT
+309|8|ｔｕｒｂｏ Ｒ|turbo R
+310|8|アヴァンタイム|AVANTIME
+311|8|シルビア K's AERO (S14)|Silvia K's AERO (S14)
+315|8|インプレッサ ＷＲＸ STi Version Ⅵ (GC8)|Impreza WRX STi Version Ⅵ (GC8)
+316|8|ＭＲ２ G-Limited Super Charger (AW11)|MR2 G-Limited Super Charger (AW11)
+319|8|ジュリア スプリント GTA|Giulia Sprint GTA
+320|8|アルファ ＧＴ|Alfa GT
+321|8|レガシィ Ｂ４ 2.0GT spec.B (BL5)|LEGACY B4 2.0GT spec.B (BL5)
+323|8|2005 ＦＯＲＤ ＧＴ|2005 FORD GT
+327|8|アバルト １０００ ＴＣＲ|ABARTH 1000 TCR
+330|8|パジェロ エボリューション (Rally Car)|PAJERO EVOLUTION (Rally Car)
+331|8|ピックアップ (Rally Car)|PICK UP (Rally Car)
+332|8|ＳＬＲ|SLR
+333|8|ゴルフ ＧＴＩ (Ⅴ)|Golf GTI (Ⅴ)
+334|8|マクラーレンＦ１ GTR (Race Car)|McLaren F1 GTR (Race Car)
+335|8|Ｍ３ GTR road version (E46)|M3 GTR road version (E46)
+336|8|３.０ ＣＳＬ (Race Car)|3.0 CSL (Race Car)
+337|8|Ｍ１ procar (Race Car)|M1 procar (Race Car)
+338|8|Ｍ３ SPORT EVOLUTION (E30)|M3 SPORT EVOLUTION (E30)
+353|8|2005 マスタング GT|2005 MUSTANG GT
+354|8|Ｒ８ TEAM GOH 2004 (Race Car)|R8 TEAM GOH 2004 (Race Car)

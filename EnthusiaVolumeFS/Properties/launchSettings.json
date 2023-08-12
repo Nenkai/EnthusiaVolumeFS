@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EnthusiaVolumeFS": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\nenkai\\source\\repos\\EnthusiaVolumeFS\\EnthusiaVolumeFS\\bin\\Debug\\net6.0\\enthus\\pack\\cariconpk\\001_00.sel\" \"enthus\""
+    }
+  }
+}

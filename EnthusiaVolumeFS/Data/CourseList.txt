@@ -1,0 +1,279 @@
+﻿0|－－－
+1|AUTUMN HILL
+2|AUTUMN MOUNTAIN
+3|VICTORIA GARDEN
+4|VICTORIA ROAD
+5|ROUTE de la SEINE
+7|BURGENSCHLUCHT
+8|WINTERTRAUM
+10|MARCO STRADA
+11|MARCO STRADA
+12|TSUKUBA CIRCUIT
+13|TSUKUBA CIRCUIT
+14|TSUKUBA CIRCUIT
+15|N@urburgring  Nordschleife
+16|PACIFIC GATEWAY
+17|L@OWENSEERING
+18|REV CITY
+20|SPEEDIAPOLIS RING
+21|MYSTIC CAVEWAY
+22|EDGE OF THE ROAD
+23|DRAGON RANGE
+26|AIRPORT SQUARE
+28|OCEAN BRIDGE
+29|OCEAN BRIDGE
+30|MIRAGE CROSSING
+31|MIRAGE CROSSING
+32|MIRAGE CROSSING
+33|MIRAGE CROSSING
+34|MIRAGE CROSSING
+35|MIRAGE CROSSING
+36|MIRAGE CROSSING
+37|MIRAGE CROSSING
+38|MIRAGE CROSSING
+39|MIRAGE CROSSING
+40|MIRAGE CROSSING
+41|MIRAGE CROSSING
+42|MIRAGE CROSSING
+43|MIRAGE CROSSING
+44|MIRAGE CROSSING
+45|MIRAGE CROSSING
+46|COSMIC EGGWAY
+47|COSMIC WINDING
+48|WILD WEST ENDURO
+99|GARAGE
+112|MARCO STRADA
+113|MARCO STRADA
+114|N@urburgring  Nordschleife
+115|MARCO STRADA
+116|MIRAGE CROSSING
+117|PYLON SLALOM
+118|SS CIRCLE
+119|DEMO RUN
+201|AUTUMN HILL
+202|AUTUMN MOUNTAIN
+203|VICTORIA GARDEN
+204|VICTORIA ROAD
+205|ROUTE de la SEINE
+207|BURGENSCHLUCHT
+208|WINTERTRAUM
+210|MARCO STRADA
+211|MARCO STRADA
+212|TSUKUBA CIRCUIT
+213|TSUKUBA CIRCUIT
+214|TSUKUBA CIRCUIT
+215|N@urburgring  Nordschleife
+216|PACIFIC GATEWAY
+217|L@OWENSEERING
+218|REV CITY
+221|MYSTIC CAVEWAY
+222|EDGE OF THE ROAD
+223|DRAGON RANGE
+247|COSMIC WINDING
+248|wWILD WEST ENDURO
+
+// 73-80
+608|Unknown
+615|Unknown
+620|Unknown
+621|Unknown
+808|Unknown
+815|Unknown
+821|Unknown
+
+// 80 - 200 (as per sub_199D30)
+// Repeats first
+0|Unknown
+1|Unknown
+2|Unknown
+3|Unknown
+4|Unknown
+5|Unknown
+7|Unknown
+8|Unknown
+10|Unknown
+11|Unknown
+12|Unknown
+13|Unknown
+14|Unknown
+15|Unknown
+16|Unknown
+17|Unknown
+18|Unknown
+20|Unknown
+21|Unknown
+22|Unknown
+23|Unknown
+26|Unknown
+28|Unknown
+29|Unknown
+30|Unknown
+31|Unknown
+32|Unknown
+33|Unknown
+34|Unknown
+35|Unknown
+36|Unknown
+37|Unknown
+38|Unknown
+39|Unknown
+40|Unknown
+41|Unknown
+42|Unknown
+43|Unknown
+44|Unknown
+45|Unknown
+46|Unknown
+47|Unknown
+48|Unknown
+99|Unknown
+112|Unknown
+113|Unknown
+114|Unknown
+115|Unknown
+116|Unknown
+117|Unknown
+118|Unknown
+119|Unknown
+201|Unknown
+202|Unknown
+203|Unknown
+204|Unknown
+205|Unknown
+207|Unknown
+208|Unknown
+210|Unknown
+211|Unknown
+212|Unknown
+213|Unknown
+214|Unknown
+215|Unknown
+216|Unknown
+217|Unknown
+218|Unknown
+221|Unknown
+222|Unknown
+223|Unknown
+247|Unknown
+248|Unknown
+// Then to 400?
+400|Unknown
+401|Unknown
+402|Unknown
+403|Unknown
+404|Unknown
+405|Unknown
+406|Unknown
+407|Unknown
+408|Unknown
+409|Unknown
+410|Unknown
+411|Unknown
+412|Unknown
+413|Unknown
+414|Unknown
+415|Unknown
+416|Unknown
+417|Unknown
+418|Unknown
+419|Unknown
+420|Unknown
+421|Unknown
+422|Unknown
+423|Unknown
+424|Unknown
+425|Unknown
+426|Unknown
+427|Unknown
+428|Unknown
+429|Unknown
+430|Unknown
+431|Unknown
+432|Unknown
+433|Unknown
+434|Unknown
+435|Unknown
+436|Unknown
+437|Unknown
+438|Unknown
+439|Unknown
+440|Unknown
+441|Unknown
+442|Unknown
+443|Unknown
+444|Unknown
+445|Unknown
+446|Unknown
+447|Unknown
+448|Unknown
+449|Unknown
+450|Unknown
+451|Unknown
+452|Unknown
+453|Unknown
+454|Unknown
+455|Unknown
+456|Unknown
+457|Unknown
+458|Unknown
+459|Unknown
+460|Unknown
+461|Unknown
+462|Unknown
+463|Unknown
+464|Unknown
+465|Unknown
+466|Unknown
+467|Unknown
+468|Unknown
+469|Unknown
+470|Unknown
+471|Unknown
+472|Unknown
+473|Unknown
+474|Unknown
+475|Unknown
+476|Unknown
+477|Unknown
+478|Unknown
+479|Unknown
+480|Unknown
+481|Unknown
+482|Unknown
+483|Unknown
+484|Unknown
+485|Unknown
+486|Unknown
+487|Unknown
+488|Unknown
+489|Unknown
+490|Unknown
+491|Unknown
+492|Unknown
+493|Unknown
+494|Unknown
+495|Unknown
+496|Unknown
+497|Unknown
+498|Unknown
+499|Unknown
+500|Unknown
+501|Unknown
+502|Unknown
+503|Unknown
+504|Unknown
+505|Unknown
+506|Unknown
+507|Unknown
+508|Unknown
+509|Unknown
+510|Unknown
+511|Unknown
+512|Unknown
+513|Unknown
+514|Unknown
+515|Unknown
+516|Unknown
+517|Unknown
+518|Unknown
+519|Unknown
